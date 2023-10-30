@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Community Cards -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="5">
+
+        <!-- Card 1 -->
+        <ImageView
+            android:id="@+id/communityCard1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_margin="4dp"/>
+
+        <!-- Card 2 -->
+        <ImageView
+            android:id="@+id/communityCard2"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_margin="4dp"/>
+
+        <!-- Card 3 -->
+        <ImageView
+            android:id="@+id/communityCard3"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_margin="4dp"/>
+
+        <!-- Card 4 -->
+        <ImageView
+            android:id="@+id/communityCard4"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_margin="4dp"/>
+
+        <!-- Card 5 -->
+        <ImageView
+            android:id="@+id/communityCard5"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_margin="4dp"/>
+    </LinearLayout>
+
+    <!-- Player Cards -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="2"
+        android:layout_marginTop="16dp">
+
+        <!-- Player Card 1 -->
+        <ImageView
+            android:id="@+id/playerCard1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_margin="4dp"/>
+
+        <!-- Player Card 2 -->
+        <ImageView
+            android:id="@+id/playerCard2"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_margin="4dp"/>
+    </LinearLayout>
+
+    <!-- Calculate Button -->
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Odds"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Result Display -->
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result will appear here"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
